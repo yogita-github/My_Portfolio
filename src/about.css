@@ -1,0 +1,118 @@
+* {
+  background-color: #123456;
+  height: max-content;
+  
+}
+
+h2 {
+  font-size: 30px;
+  position: relative;
+  font-weight: bolder;
+  outline: none;
+  text-transform: uppercase;
+  background: linear-gradient(
+    135deg,
+    #8263ff 0%,
+    #de005e 25%,
+    #f1da3e 50%,
+    #de005e 75%,
+    #5335cf 100%
+  );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 10s linear infinite;
+}
+
+.float-container {
+  padding: 20px;
+  padding-top: 5%;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+  padding: 20px 50px 5px 3px;
+}
+.about_para {
+  color: rgb(255, 254, 254);
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 120%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #7ccdf6;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* .hover-padd{
+    padding-left: 50px;
+  } */
+.aboutImgDiv {
+  width: 35rem;
+  height: 35rem;
+  margin-left: 200px;
+  overflow: hidden;
+  opacity: 100%;
+  box-shadow: 16px 14px 20px #0000008c;
+  border-radius: 10px;
+  border:5px solid #de005e ;
+  
+}
+
+
+.aboutImgDiv:hover {
+  opacity: 50%;
+  transition: opacity 1s;
+}
+
+@media(max-width:412px){
+  .about_para{
+    width: 100%;
+    margin-right:-20px;
+    margin-left: 50px;
+    font-size: 12px;
+  }
+  .float-child .aboutImgDiv{
+    float: left;
+    margin-top: 650px;
+    margin-left: -150px;
+    height: 200px;
+    width:200px;
+    
+  }
+  .hover-underline-animation{
+    margin-left:40px;
+  }
+  .float-container .float-child{
+    margin-left: 40px;
+    margin-right: 500px;
+    
+  }
+  .float-child .aboutImgDiv {
+    margin-top: -5px;
+    margin-left: 40px;
+  }
+  .float-container{
+    margin-top: -50px;
+  }
+  .nav{
+    background-color: #123456;
+  }
+}
