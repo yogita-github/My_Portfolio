@@ -8,7 +8,7 @@ import{FaGithubSquare} from "react-icons/fa";
 import{FaLinkedin} from "react-icons/fa";
 import{FaRegEnvelope} from "react-icons/fa";
 import{FaPhone} from "react-icons/fa";
-import Resume from "../assests/resume.pdf";
+import Resume from "../assests/Resume Yogita.pdf";
 
 export default function Hero(){
   return (
