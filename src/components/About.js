@@ -17,7 +17,7 @@ export default function About(){
         </div>
         <div className="textSection">
           <h4 className='about_para'>
-            I am a computer science engineering student, passionate about the
+            I am Yogita Vinayak Mahajan, a computer science engineering student, passionate about the
             world of technology. My name is Yogita Vinayak Mahajan, and I am
             currently pursuing my studies in computer science engineering at
             Shram Sadhana Trust College of Engineering and Technology Bambhori.
