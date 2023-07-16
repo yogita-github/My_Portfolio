@@ -42,6 +42,7 @@ export default function Hero(){
           <a href={Resume} className='btn btn-outline'>
             Resume
           </a>
+          <a href="https://www.interviewbit.com/profile/yogita-mahajan_488">Interviewbit</a>
         </div>
       </div>
           <div className='container1'>
