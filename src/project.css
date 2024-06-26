@@ -71,6 +71,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    
 }
+.techno {
+  padding: 50px;
+}
+.cert {
+  color: bisque;
+  padding: 50px;
+}
+.certificate {
+  padding-left: 50px;
+}
 @media (max-width:480px){
     
     .card{
