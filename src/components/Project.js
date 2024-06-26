@@ -14,7 +14,6 @@ import output10 from "../assests/home (6).png";
 import output11 from "../assests/Implem3.png";
 import output12 from "../assests/Implem4.png";
 
-
 export default function Project() {
   return (
     <>
@@ -22,14 +21,14 @@ export default function Project() {
       <section className="projects">
         <p className="proj">Projects</p>
         <div className="pr_para1">
-          <p className="pr_head1">Age and Gender Detector model</p>
+          <p className="pr_head1">Student Management System</p>
           <p className="proj_para1">
-            Trained Age and Gender Detector model which could predict age and
-            gender taking input image using ML. The model is trained by passing
-            dataset and predicting the age of the person.
+            Operations like add students, remove students, search students and
+            exit are implemented.This data is stored in dictionary data type
+            with roll no, name, marks as attributes
           </p>
 
-          <div className="cards_boss">
+          {/* <div className="cards_boss">
             <div className="card">
               <img src={output1} alt="Avatar" />
               <div className="container">
@@ -66,31 +65,60 @@ export default function Project() {
                 <p>Age : 19 years</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="pr_para1">
-          <p className="pr_head1">
-            Counselling System for Human Health using ML
-          </p>
+          <p className="pr_head1">Spam Detection</p>
           <p className="proj_para2">
-            Counselling System for Human Health using ML March 2023 A project is
-            trained using dataset of body vitals.It is trained using rfc
-            algorithm which takes the average to improve the predictive accuracy
-            of that dataset.Tried with various svc algorithm ,Naive Bayes
-            Classifier and K-nearest neighbour algorithm but in case of rfc the
-            accuracy was around 80The body vitals taken as input calculates the
-            health status of a patient,based on the health status the detailed
-            report is presented to the user
+            Developed and implemented a machine learning model to accurately
+            detect spam emails, utilizing natural language processing and
+            classification algorithms, resulting in a 95% accuracy rate.
+            Analyzed and visualized data trends to optimize model performance
+            and user experience
           </p>
 
-          <div className="cards_boss">
+          <div className="pr_para1">
+            <p className="pr_head1">Unemployment Analysis</p>
+            <p className="proj_para2">
+              Experienced data analyst skilled in leveraging statistical
+              programming, data mining, and visualization tools to uncover
+              insights from complex unemployment datasets. Adept at translating
+              technical findings into actionable recommendations to support
+              strategic business decisions.
+            </p>
+
+            <p className="techno">
+              <span>
+                <b>TECHNICAL KNOWLEDGE:</b>
+              </span>
+              <br />
+              ❖ Expertise in creating dashboards using the suite of tableau
+              software tools like Tableau Desktop and publishing on Tableau
+              Server. <br />❖ Decent hold on parameters, calculated fields,
+              filters, sets, hierarchies, actions in dashboards.
+              <br /> ❖ Know how to restrict data for particular users using Row
+              level security and User filters.
+              <br /> ❖ Good hold on core python concepts which includes aspects
+              like data structures, oops concept, variables and data types
+              (string, tuples, lists, dictionaries, integers) knowledge of file
+              handling concepts exception handling , generators and iterators.
+            </p>
+
+            <h3 className="cert">Certifications</h3>
+            <p className="certificate">
+              {" "}
+              Cisco Data Analytics Essentials, Introduction to database and SQL,
+              Introduction to Career Skills in Data Analytics, Advanced Excel
+              and Finance Calculations, Microsoft Azure Data Fundamentals.
+            </p>
+
+            {/* <div className="cards_boss">
             <div className="card">
               <img src={output5} alt="Avatar" />
               <div className="container">
                 <h4>
                   <b>Home Page</b>
                 </h4>
-               
               </div>
             </div>
             <div className="card">
@@ -99,7 +127,6 @@ export default function Project() {
                 <h4>
                   <b>About page</b>
                 </h4>
-               
               </div>
             </div>
             <div className="card">
@@ -108,7 +135,6 @@ export default function Project() {
                 <h4>
                   <b>Extended About</b>
                 </h4>
-               
               </div>
             </div>
             <div className="card">
@@ -117,19 +143,17 @@ export default function Project() {
                 <h4>
                   <b>Recommendations</b>
                 </h4>
-               
               </div>
             </div>
-          </div>
-        
-          <div className="cards_boss">
+          </div> */}
+
+            {/* <div className="cards_boss">
             <div className="card">
               <img src={output9} alt="Avatar" />
               <div className="container">
                 <h4>
                   <b>FAQ's</b>
                 </h4>
-               
               </div>
             </div>
             <div className="card">
@@ -138,7 +162,6 @@ export default function Project() {
                 <h4>
                   <b>Advice page</b>
                 </h4>
-                
               </div>
             </div>
             <div className="card">
@@ -147,7 +170,6 @@ export default function Project() {
                 <h4>
                   <b>Report</b>
                 </h4>
-                
               </div>
             </div>
             <div className="card">
@@ -156,11 +178,10 @@ export default function Project() {
                 <h4>
                   <b>Suggestions</b>
                 </h4>
-                
               </div>
             </div>
+          </div> */}
           </div>
-        
         </div>
       </section>
     </>
