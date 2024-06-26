@@ -61,14 +61,14 @@ h2 {
       padding-left: 50px;
     } */
   .aboutImgDiv1 {
-    width: 35rem;
+    width: 19rem;
     height: 19rem;
     margin-left: 200px;
     overflow: hidden;
     opacity: 100%;
-    box-shadow: 16px 14px 20px #0000008c;
+    /* box-shadow: 16px 14px 20px #0000008c; */
     border-radius: 10px;
-    border:5px solid #de005e ;
+    /* border:5px solid #de005e ; */
     margin-top:100px;
     
   }
